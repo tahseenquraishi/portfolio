@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
+        <div class="container ">
+
+            <a class="navbar-brand text-light" href="#">
+                <!-- <img src="img/Screenshot (13).png" alt="" width="70%" height="50%"> -->
+                <div class="wrapper">
+                    <h1 class="my-logo">TAHSEEN</h1>
+                </div>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#about-us">About Me <a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#resume">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#what-i-do">What I DO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#my-work">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#contact-us">Contact Me</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="header">
+        <div>
+            <p class="text-light text-center fs-25 fs-md-35 m-0">HI, I'M A SOFTWARE ENGINEER</p>
+            <!-- <p class="text-light fw-700 fs-100  m-0 text-center ">DEVELOPER|</p> -->
+            <div class='console-container'><span id='text'></span>
+                <div class='console-underscore' id='console'>&#95;</div>
+            </div>
+            <p class="text-light text-center fs-22 fw-400">based in Bangalore, India.</p>
+            <p class="text-center"> <button class="btn  view-work-btn rounded-0 mt-3"
+                    onclick="myFunction('my-work')">view My Works </button></p>
+
+        </div>
+    </header>
+
+    <section class="section-1 " id="about-us">
+        <div class="container">
+            <p class="text-center"><span class=" about-me fw-500 ">About Me</span></p>
+            <p class="fw-600 fs-40 text-center mb-2 mb-md-5">Know Me More</p>
+
+            <div class="row mb-5">
+                <div class="col-md-8">
+                    <p class="fs-28 fs-md-35">Hi, I'm <span class="my-name">Md Tahseen</span> </p>
+                    <p class="fs-22">I'm a designer & developer with a passion for web and mobile app design. I enjoy developing simple and clean apps that provide real value to the end user. Currently working as a senior frontend Developer with a demonstrated history of working in the information technology and services industry. Skilled in Flutter, react, Angular, Javascript, Bootstrap, Html, CSS, Jquery, Ionic. Having 4 years of experience and strong engineering professional graduated from LNCT colleg, Bhopal.</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="my-img">
+                        <img src="img/profile.jpeg" alt="" height="100%" width="100%">
+                    </div>
+
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-md-3">
+                    <p class="m-0 text-muted fw-500 fs-18">Name:</p>
+                    <p class="fw-600 fs-18">Md Tahseen</p>
+                </div>
+                <div class="col-md-3">
+                    <p class="m-0 text-muted fw-500 fs-18">Email:</p>
+                    <p class="fw-600 fs-18">tahseen15july.tq@gmail.com</p>
+                </div>
+                <div class="col-md-3">
+                    <p class="m-0 text-muted fw-500 fs-18">Date of birth:</p>
+                    <p class="fw-600 fs-18">15 July, 1997</p>
+                </div>
+                <div class="col-md-3">
+                    <p class="m-0 text-muted fw-500 fs-18">From:</p>
+                    <p class="fw-600 fs-18">Bihar, India.</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section-2" id="what-i-do">
+        <div class="container">
+            <p class="text-center"><span class=" about-me fw-500 ">What I Do?</span></p>
+            <p class="fw-600 fs-35 fs-md-40 text-center mb-5">How I can help your next project</p>
+
+            <div class="row">
+                <div class="col-md-4 d-flex align-items-center  flex-column mb-4">
+                    <i class="fas fa-palette experiance-icon"></i>
+                    <p class="fw-600 fs-25">Web Development</p>
+                    <p class="text-center text-muted px-3">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been
+                        the industry’s standard dummy text.</p>
+                </div>
+                <div class="col-md-4 d-flex align-items-center  flex-column mb-4">
+                    <i class="fas fa-desktop experiance-icon"></i>
+                    <p class="fw-600 fs-25">Flutter App Development</p>
+                    <p class="text-center text-muted px-3">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been
+                        the industry’s standard dummy text.</p>
+                </div>
+                <div class="col-md-4 d-flex align-items-center  flex-column mb-4">
+                    <i class="fas fa-pencil-ruler experiance-icon"></i>
+                    <p class="fw-600 fs-25">PWA Development</p>
+                    <p class="text-center text-muted px-3">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been
+                        the industry’s standard dummy text.</p>
+                </div>
+                <div class="col-md-4 d-flex align-items-center  flex-column mb-4">
+                    <i class="fas fa-paint-brush experiance-icon"></i>
+                    <p class="fw-600 fs-25">Hybrid App Development</p>
+                    <p class="text-center text-muted px-3">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been
+                        the industry’s standard dummy text.</p>
+                </div>
+                <div class="col-md-4 d-flex align-items-center  flex-column mb-4">
+                    <i class="fas fa-chart-area experiance-icon"></i>
+                    <p class="fw-600 fs-25">UI/UX Designing</p>
+                    <p class="text-center text-muted px-3">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been
+                        the industry’s standard dummy text.</p>
+                </div>
+                <div class="col-md-4 d-flex align-items-center  flex-column mb-4">
+                    <i class="fas fa-bullhorn experiance-icon"></i>
+                    <p class="fw-600 fs-25">Mockups Designing</p>
+                    <p class="text-center text-muted px-3">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been
+                        the industry’s standard dummy text.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-3 " id="resume">
+        <div class="container">
+            <p class="text-center"><span class=" about-me fw-500 ">Resume</span></p>
+            <p class="fw-600 fs-35 fs-md-40 text-center mb-5">A summary of My Resume</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="text-7 fw-600 mb-4 pb-2">My Education</h2>
+                    <div class=" border-start border-2 border-primary ps-3">
+                        <h3 class="fs-21">Bachelor of Engineering</h3>
+                        <p class="mb-2">LNCT / 2014 - 2018</p>
+                        <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the dummy text.</p>
+                        <hr class="my-4">
+                        <h3 class="fs-21">Intermediate</h3>
+                        <p class="mb-2">CBSE / 2012 - 2014</p>
+                        <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the dummy text.</p>
+                        <hr class="my-4">
+                        <h3 class="fs-21">Matric</h3>
+                        <p class="mb-2">CBSE / 2010 - 2012</p>
+                        <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the dummy text.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="text-7 fw-600 mb-4 pb-2">My Experience</h2>
+                    <div class=" border-start border-2 border-primary ps-3">
+                        <h3 class="fs-21">Sr. Frontend Engineer</h3>
+                        <p class="mb-2">Refyne India / 2021 - Current</p>
+                        <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the dummy text.</p>
+                        <hr class="my-4">
+                        <h3 class="fs-21">Frontend Engineer</h3>
+                        <p class="mb-2">Kodo / 2019 - 2020</p>
+                        <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the dummy text.</p>
+                        <hr class="my-4">
+                        <h3 class="fs-21">Frontend Engineer</h3>
+                        <p class="mb-2">Hackerkernel / 2017 - 2018</p>
+                        <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the dummy text.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-5 mb-4">
+                <h2 class="text-7 fw-600 mb-4 pb-2">My Skills</h2>
+                <div class="row gx-0">
+                    <div class="col-md-6 pe-0 pe-md-5">
+                        <div class="mb-4">
+                            <p class="fw-500 text-start mb-2">Flutter <span class="float-end">95%</span></p>
+                            <div class="progress-bar">
+                                <div class="flutter">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <p class="fw-500 text-start mb-2">Angular <span class="float-end">95%</span></p>
+                            <div class="progress-bar">
+                                <div class="angular">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <p class="fw-500 text-start mb-2">React <span class="float-end">90%</span></p>
+                            <div class="progress-bar">
+                                <div class="react">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <p class="fw-500 text-start mb-2">Ionic<span class="float-end">80%</span></p>
+                            <div class="progress-bar">
+                                <div class="ionic">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 ps-0 ps-md-5">
+                        <div class="mb-4">
+                            <p class="fw-500 text-start mb-2">JavaScript <span class="float-end">90%</span></p>
+                            <div class="progress-bar">
+                                <div class="JavaScript">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <p class="fw-500 text-start mb-2">Bootstrap<span class="float-end">95%</span></p>
+                            <div class="progress-bar">
+                                <div class="bootstrap">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <p class="fw-500 text-start mb-2">HTML/CSS <span class="float-end">95%</span></p>
+                            <div class="progress-bar">
+                                <div class="html">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <p class="fw-500 text-start mb-2">Figma/XD <span class="float-end">90%</span></p>
+                            <div class="progress-bar">
+                                <div class="figma">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="./Resume.pdf" download>
+                    <button class="btn btn-outline-dark download-resume-btn rounded-0 fw-500 fs-18"> Download
+                        CV</button>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section-4" id="my-work">
+        <div class="container">
+            <p class="text-center"><span class=" about-me fw-500 ">Portfolio</span></p>
+            <p class="fw-600 fs-35 fs-md-40 text-center mb-5">Some of my most recent projects</p>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="project-1">
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="project-2">
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="project-3">
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="project-4">
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://shariq-portfolio.000webhostapp.com/front/">
+                        <div class="project-5">
+
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://shariq-portfolio.000webhostapp.com/Claco/">
+                        <div class="project-6">
+
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section-5">
+        <div>
+            <p class="text-light fw-600 fs-40 text-center">Interested in working with me?</p>
+        </div>
+        <div>
+            <p> <button class="btn  view-work-btn rounded-0 mt-3" onclick="myFunction('contact-us')">Hire Me! </button>
+            </p>
+        </div>
+    </section>
+
+    <section class="section-7" id="contact-us">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-md-5">
+                    <p class="fw-600 mb-5 fs-40 text-center text-md-start">Let's get in touch</p>
+                    <p class="my-content mb-5 text-center text-md-start">I enjoy discussing new projects and design
+                        challenges. Please share as
+                        much info, as possible so
+                        we can get the most out of our first catch-up.</p>
+                   
+                </div>
+
+                <div class="col-md-6">
+                    <p class="fw-600 mb-4 fs-40 m-0  text-center text-md-start">Connect with me?</p>
+                    <p class="fw-600 fs-22 m-0 mb-1  text-center text-md-start">Living In:</p>
+                    <p class="fs-18  text-center text-md-start">HSR Layout, Bangalore, India.</p>
+                    <p class="fw-600 fs-22 m-0 mb-1  text-center text-md-start">Call:</p>
+                    <p class="fs-18 m-0 mb-5  text-center text-md-start">(+91) 8770658057</p>
+                    <p class=" text-center text-md-start">
+                        <a target="_blank" href="https://stackoverflow.com/users/7983887/tahseen-quraishi"><i class="fab fa-stack-overflow fs-30 me-3 social-icon stackoverflow-icon"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/tahseen-quraishi-30b59b14a/"><i class="fab fa-linkedin me-3 fs-30 social-icon linkedin-icon"></i></a>
+                        <a target="_blank" href="https://github.com/tahseenquraishi"><i class="fab fa-github fs-30 me-3 social-icon github-icon"></i></a>
+                        <a target="_blank" href="https://twitter.com/TahseenQuraish2"><i class="fab fa-twitter fs-30 me-3 social-icon twitter-icon"></i></a>
+                        <a target="_blank" href="https://www.facebook.com/tahseen.quraishi"><i class="fab fa-facebook fs-30 me-3 social-icon facebook-icon"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/tahseenquraishi/"><i class="fab fa-instagram fs-30 me-3 social-icon instagram-icon"></i></a>  
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

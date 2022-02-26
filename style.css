@@ -1,0 +1,450 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.row{
+    margin: 0px;
+}
+.fw-400{
+    font-weight: 400;
+}
+.fw-500{
+    font-weight: 500;
+}
+.fw-600{
+    font-weight: 600;
+}
+.fw-700{
+    font-weight: 700;
+}
+.fw-800{
+    font-weight: 800;
+}
+.fw-900{
+    font-weight: 900;
+}
+.fs-100{
+    font-size: 100px;
+}
+.fs-10 {
+    font-size: 10px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+.fs-15 {
+    font-size: 15px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+.fs-21{
+    font-size: 21px;
+}
+.fs-22 {
+    font-size: 22px;
+}
+
+.fs-25 {
+    font-size: 25px;
+}
+.fs-28 {
+    font-size: 28px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.fs-35 {
+    font-size: 35px;
+}
+.fs-40 {
+    font-size: 40px;
+}
+.fs-45 {
+    font-size: 45px;
+}
+.fs-50 {
+    font-size: 50px;
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 100;
+}
+.header{
+    width: 100%;
+    height: 90vh;
+    background-color: royalblue;
+    background-image: linear-gradient(45deg
+    , rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(img/intro-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 75px 0px;
+}
+.view-work-btn{
+    background-color: #f5df4e;
+    border: none;
+    color: #212529;
+    padding: 15px 28px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.view-work-btn:hover{
+   background-color:#ecd53b ;
+   cursor: pointer;
+}
+.about-me{
+    background-color: #f5df4e;
+    color: black;
+    padding: 3px 10px;
+}
+.my-name{
+    border-bottom: 4px solid #f5df4e;
+    font-weight: 600;
+    font-size: 50px;
+}
+.my-img{
+    height: 100%;
+    width: 100%;
+    background-color: cadetblue;
+}
+.section-1{
+    margin-bottom: 70px;
+}
+.section-2 {
+    height: 100%;
+    width: 100%;
+    background-color: #f8f9fa;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    margin-bottom: 70px ;
+}
+.experiance-icon{
+    color: #f5df4e ;
+    font-size: 52px;
+    margin-bottom: 15px;
+}
+.border-primary{
+    border-color: #f5df4e !important;
+    
+}
+.progress-bar{
+    width: 100%;
+    height: 8px;
+    background-color: #e9ecef;
+    border-radius: 10px;
+}
+.ionic {
+    height: 100%;
+    width: 80%;
+    background-color:#f5df4e;
+}
+.html {
+    height: 100%;
+    width: 95%;
+    background-color:#f5df4e;
+}
+.JavaScript {
+    height: 100%;
+    width: 90%;
+    background-color:#f5df4e;
+}
+.angular{
+    height: 100%;
+    width: 95%;
+    background-color:#f5df4e;
+}
+.flutter{
+    height: 100%;
+    width: 95%;
+    background-color:#f5df4e;
+}
+.bootstrap{
+    height: 100%;
+    width: 95%;
+    background-color:#f5df4e;
+}
+.figma{
+    height: 100%;
+    width: 90%;
+    background-color:#f5df4e;
+}
+.react{
+    height: 100%;
+    width: 85%;
+    background-color:#f5df4e;
+}
+.download-resume-btn {
+    border: 2px solid black;
+    color: #f5df4e;
+    padding: 11px 25px;
+}
+.section-3 {
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+.section-4 {
+    width: 100%;
+    height: 100%;
+    background-color: #f8f9fa ;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    
+}
+.project-1 {
+    width: 100%;
+    height: 300px;
+    background-image: url(img/project-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+.project-2 {
+    width: 100%;
+    height: 300px;
+    background-image: url(img/project-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+.project-3 {
+    width: 100%;
+    height: 300px;
+    background-image: url(img/project-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+.project-4 {
+    width: 100%;
+    height: 300px;
+    background-image: url(img/project-4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+.project-5 {
+    width: 100%;
+    height: 300px;
+    background-image: url(img/project-5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+.project-6 {
+    width: 100%;
+    height: 300px;
+    background-image: url(img/project-6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-5{
+    width: 100%;
+    height: 60vh;
+    background-image: linear-gradient(45deg
+    , rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(img/intro-bg-2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section-6 {
+    width: 100%;
+    background-color: #939597;
+    padding: 100px 0px;
+}
+.clint-img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-bottom: 8px;
+    overflow: hidden;
+}
+.carousel-indicators {
+    bottom: -50px !important;
+}
+.slider-icon{
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    background-color: #fafafa4d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-7 {
+    width: 100%;
+    background-color: #f5df4e;
+   
+    padding: 100px 0px;
+}
+.my-content {
+    font-size: 22px;
+    line-height: 37px;
+}
+.form-control  {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+    border-radius: 0px;
+    padding-left: 0px !important;
+    color: black;
+    font-size: 19px;
+}
+.form-control:focus{
+    background-color: transparent;
+    border-color: unset;
+    box-shadow: unset;
+}
+.send-btn{
+    padding: 15px 30px;
+}
+.social-icon{
+    color: #4d555a;;
+}
+.twitter-icon:hover{
+    cursor: pointer;
+    color: #00ACEE;
+}
+.facebook-icon:hover{
+    cursor: pointer;
+    color: #0000FF;
+}
+.instagram-icon:hover{
+    cursor: pointer;
+    color: #d6249f ;
+}
+.github-icon:hover{
+    cursor: pointer;
+    color: black;
+}
+.dribbble-icon:hover{
+    cursor: pointer;
+    color: palevioletred;
+}
+.footer{
+    width: 100%;
+}
+.hidden {
+    opacity:0;
+  }
+  .console-container {
+   
+    font-family:Khula;
+    font-size:5em;
+    font-weight: 600;
+    text-align:center;
+    height:100px;
+    width:600px;
+    display:block;
+    /* position:absolute; */
+    color:white;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+  }
+  .console-underscore {
+     display:inline-block;
+    position:relative;
+    top:-0.14em;
+    left:10px;
+  }
+
+
+  .wrapper {
+    text-align: center;
+  }
+    .my-logo {
+      color: #fff;
+      font-size: 50px;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-family: "Josefin Sans", sans-serif;
+      background: linear-gradient(to right,#095fab 10%, #25abe8 50%, #57d75b 60%);
+      background-size: auto auto;
+      background-clip: border-box;
+      background-size: 200% auto;
+      color: #fff;
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: textclip 1.5s linear infinite;
+      display: inline-block;
+    }
+
+  
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  
+  }
+@media only screen and (max-width: 768px) { 
+
+.console-container {
+    font-size: 2.5em;
+    width: unset;
+    height: 70px;
+}
+.header{
+    height: 60vh;
+}
+.my-name{
+    font-size: 35px;
+}
+.my-logo {
+    font-size: 35px;
+}
+.view-work-btn {
+    padding: 12px 17px;
+    font-size: 16px;
+}
+.slider-icon {
+   
+    width: 38px;
+    height: 38px;
+    top: 100px;
+    position: absolute;
+}
+
+}
